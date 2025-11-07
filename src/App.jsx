@@ -30,12 +30,9 @@ function App() {
       backgroundImage: `url('https://plus.unsplash.com/premium_photo-1681487769650-a0c3fbaed85a?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZmluYW5jZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600')`,
     }}
   >
-    {/* Dark overlay */}
     <div className="absolute inset-0 bg-black/30 opacity-75"></div>
 
-    {/* Main card */}
     <div className="relative z-10 w-full max-w-md bg-white/10 backdrop-blur-md border border-white/20 rounded-xl p-6 shadow-2xl">
-      {/* App title */}
       <h1 className="text-3xl font-bold text-center mb-6 text-white drop-shadow-lg">
         XChange 💶
       </h1>
